@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<style>
+		body {
+			width: 250px;
+			height: 410px;
+		}
+	</style>
+</head>
+
+<body>
+	Opcje:<br>
+	<ul>
+		<li>Kolory ocen:<br>
+			<table>
+				<tr>
+					<td>1</td>
+					<td><input class='input' type='text' id="bg1" /></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><input class='input' type='text' id="bg2" /></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td><input class='input' type='text' id="bg3" /></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td><input class='input' type='text' id="bg4" /></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td><input class='input' type='text' id="bg5" /></td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td><input class='input' type='text' id="bg6" /></td>
+				</tr>
+			</table>
+		</li>
+		<li>Kolor czcionki:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class='input' type='text' id="color" /></li>
+		<li>Plus dodaje: &nbsp;&nbsp;&nbsp;&nbsp;<input style='width:50px' type='number' id='plus' min='0' max='1'
+				step='0.05' /></li>
+		<li>Minus zabiera: <input style='width:50px' type='number' id='minus' min='0' max='1' step='0.05' /></li>
+	</ul>
+	Odswiez lub <button id='zastosuj'>Zastosuj</button> by zobaczyc zmiany<br><br>
+	<button id='przywroc'>Przywroc domyslne ustawienia</button>
+	<script src='vendor/jquery.js'></script>
+	<script src='vendor/spectrum.js'></script>
+	<link rel='stylesheet' href='spectrum.css' />
+	<script src="vendor/popup.js"></script>
+</body>
+
+</html>
