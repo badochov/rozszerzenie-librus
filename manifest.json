@@ -2,7 +2,7 @@
     "name": "Librus Synergia - Obliczanie Średniej",
     "version": "1.2",
     "description": "Dowiedz się jaką masz średnią.",
-	"permissions": ["declarativeContent","storage","activeTab","activeTab"],
+	"permissions": ["storage","activeTab","activeTab"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
